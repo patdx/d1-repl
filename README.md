@@ -1,7 +1,7 @@
 # d1-repl
 
-![NPM Version](https://img.shields.io/npm/v/d1-repl)
-![JSR Version](https://img.shields.io/jsr/v/@patdx/d1-repl)
+[![NPM Version](https://img.shields.io/npm/v/d1-repl)](https://www.npmjs.com/package/d1-repl)
+[![JSR Version](https://img.shields.io/jsr/v/@patdx/d1-repl)](https://jsr.io/@patdx/d1-repl)
 
 A D1 REPL tool.
 
