@@ -104,7 +104,7 @@ class SQLiteREPL {
   }
 
   private setupEventHandlers() {
-    this.rl.on('line', async (input) => {
+    this.rl.on('line', (input) => {
       const trimmed = input.trim()
 
       if (trimmed === '') {

@@ -85,7 +85,7 @@ var SQLiteREPL = class {
     this.setupEventHandlers()
   }
   setupEventHandlers() {
-    this.rl.on('line', async (input) => {
+    this.rl.on('line', (input) => {
       const trimmed = input.trim()
       if (trimmed === '') {
         this.rl.prompt()

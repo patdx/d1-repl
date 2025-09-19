@@ -1,7 +1,7 @@
 {
-  "name": "@patdx/d1-repl",
+  "name": "d1-repl",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A D1 REPL tool.",
   "author": "patdx",
   "repository": {
@@ -12,7 +12,12 @@
   "bugs": {
     "url": "https://github.com/patdx/d1-repl/issues"
   },
-  "keywords": ["d1", "sqlite", "repl", "cli"],
+  "keywords": [
+    "d1",
+    "sqlite",
+    "repl",
+    "cli"
+  ],
   "main": "./mod.js",
   "module": "./mod.js",
   "exports": {
@@ -21,6 +26,10 @@
     }
   },
   "bin": {
-    "d1-repl": "./mod.js"
-  }
+    "d1-repl": "mod.js"
+  },
+  "files": [
+    "mod.js",
+    "README.md"
+  ]
 }
