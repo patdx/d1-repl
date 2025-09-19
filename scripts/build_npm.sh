@@ -1,0 +1,1 @@
+deno bundle mod.ts > npm/mod.js

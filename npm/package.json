@@ -1,0 +1,26 @@
+{
+  "name": "@patdx/d1-repl",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A D1 REPL tool.",
+  "author": "patdx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patdx/d1-repl.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patdx/d1-repl/issues"
+  },
+  "keywords": ["d1", "sqlite", "repl", "cli"],
+  "main": "./mod.js",
+  "module": "./mod.js",
+  "exports": {
+    ".": {
+      "import": "./mod.js"
+    }
+  },
+  "bin": {
+    "d1-repl": "./mod.js"
+  }
+}
